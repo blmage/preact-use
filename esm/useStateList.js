@@ -4,11 +4,15 @@ import { useMemo, useRef } from 'preact/hooks';
 import useMountedState from './useMountedState';
 import useUpdate from './useUpdate';
 import useUpdateEffect from './useUpdateEffect';
-export default function useStateList(stateSet) {
+export default function useStateList(stateSet, initialState) {
     if (stateSet === void 0) { stateSet = []; }
     var isMounted = useMountedState();
     var update = useUpdate();
-    var index = useRef(0);
+    var initialIndex = initialState === undefined ? 0 : stateSet.indexOf(initialState);
+    if (initialIndex === -1) {
+        throw new Error("State '" + initialState + "' is not a valid state (does not exist in state list)");
+    }
+    var index = useRef(initialIndex);
     // If new state list is shorter that before - switch to the last element
     useUpdateEffect(function () {
         if (stateSet.length <= index.current) {
@@ -47,5 +51,8 @@ export default function useStateList(stateSet) {
             update();
         },
     }); }, [stateSet]);
-    return __assign({ state: stateSet[index.current], currentIndex: index.current }, actions);
+    var prevIndex = (0 === index.current ? stateSet.length : index.current) - 1;
+    var nextIndex = (index.current + 1) % stateSet.length;
+    return __assign({ state: stateSet[index.current], prevState: stateSet[prevIndex], nextState: stateSet[nextIndex], currentIndex: index.current, prevIndex: prevIndex,
+        nextIndex: nextIndex }, actions);
 }

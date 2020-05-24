@@ -6,17 +6,27 @@ import useUpdateEffect from './useUpdateEffect';
 
 export interface UseStateListReturn<T> {
   state: T;
+  prevState: T,
+  nextState: T,
   currentIndex: number;
+  prevIndex: number,
+  nextIndex: number,
   setStateAt: (newIndex: number) => void;
   setState: (state: T) => void;
   next: () => void;
   prev: () => void;
 }
 
-export default function useStateList<T>(stateSet: T[] = []): UseStateListReturn<T> {
+export default function useStateList<T>(stateSet: T[] = [], initialState?: T | undefined): UseStateListReturn<T> {
   const isMounted = useMountedState();
   const update = useUpdate();
-  const index = useRef(0);
+  const initialIndex = initialState === undefined ? 0 : stateSet.indexOf(initialState);
+
+  if (initialIndex === -1) {
+    throw new Error(`State '${initialState}' is not a valid state (does not exist in state list)`);
+  }
+
+  const index = useRef(initialIndex);
 
   // If new state list is shorter that before - switch to the last element
   useUpdateEffect(() => {
@@ -63,9 +73,16 @@ export default function useStateList<T>(stateSet: T[] = []): UseStateListReturn<
     [stateSet]
   );
 
+  const prevIndex = (0 === index.current ? stateSet.length : index.current) - 1;
+  const nextIndex = (index.current + 1) % stateSet.length;
+
   return {
     state: stateSet[index.current],
+    prevState: stateSet[prevIndex],
+    nextState: stateSet[nextIndex],
     currentIndex: index.current,
+    prevIndex,
+    nextIndex,
     ...actions,
   };
 }
