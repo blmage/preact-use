@@ -1,4 +1,5 @@
-import { RefObject, useEffect, useState } from 'react';
+import { RefObject } from 'react';
+import { useEffect, useState } from 'preact/hooks';
 
 // kudos: https://usehooks.com/
 const useHoverDirty = (ref: RefObject<Element>, enabled: boolean = true) => {

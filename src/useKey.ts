@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { DependencyList, useMemo } from 'react';
+import { DependencyList } from 'react';
+import { useMemo } from 'preact/hooks';
 import useEvent, { UseEventTarget } from './useEvent';
 
 export type KeyPredicate = (event: KeyboardEvent) => boolean;

@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef } from 'preact/hooks';
 
 export function useFirstMountState(): boolean {
   const isFirst = useRef(true);

@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useCallback, useRef } from 'react';
+import { useCallback, useRef } from 'preact/hooks';
 import useUpdate from './useUpdate';
 
 const useGetSetState = <T extends object>(initialState: T = {} as T): [() => T, (patch: Partial<T>) => void] => {

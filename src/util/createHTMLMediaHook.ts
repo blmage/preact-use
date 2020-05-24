@@ -1,6 +1,6 @@
 /* eslint-disable */
 import * as React from 'react';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'preact/hooks';
 import useSetState from '../useSetState';
 import parseTimeRanges from './parseTimeRanges';
 

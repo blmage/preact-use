@@ -1,6 +1,6 @@
 /* eslint-disable */
 import { scrollbarWidth } from '@xobotyi/scrollbar-width';
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'preact/hooks';
 
 export function useScrollbarWidth(): number | undefined {
   const [sbw, setSbw] = useState(scrollbarWidth());

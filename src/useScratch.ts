@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef, FC, cloneElement } from 'react';
+import { FC, cloneElement } from 'react';
+import { useState, useEffect, useRef } from 'preact/hooks';
 import { render } from 'react-universal-interface';
 import useLatest from './useLatest';
 

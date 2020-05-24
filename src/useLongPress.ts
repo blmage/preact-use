@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useCallback, useRef } from 'react';
+import { useCallback, useRef } from 'preact/hooks';
 
 interface Options {
   isPreventDefault?: boolean;

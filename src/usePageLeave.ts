@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useEffect } from 'react';
+import { useEffect } from 'preact/hooks';
 
 const usePageLeave = (onPageLeave, args = []) => {
   useEffect(() => {

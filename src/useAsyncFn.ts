@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { DependencyList, useCallback, useState, useRef } from 'react';
+import { DependencyList } from 'react';
+import { useCallback, useState, useRef } from 'preact/hooks';
 import useMountedState from './useMountedState';
 import { FnReturningPromise, PromiseType } from './util';
 

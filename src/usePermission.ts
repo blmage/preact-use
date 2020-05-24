@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'preact/hooks';
 import { off, on } from './util';
 
 type PermissionDesc =

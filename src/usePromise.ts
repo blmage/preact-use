@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useCallback } from 'react';
+import { useCallback } from 'preact/hooks';
 import useMountedState from './useMountedState';
 
 export type UsePromise = () => <T>(promise: Promise<T>) => Promise<T>;

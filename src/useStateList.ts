@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useMemo, useRef } from 'react';
+import { useMemo, useRef } from 'preact/hooks';
 import useMountedState from './useMountedState';
 import useUpdate from './useUpdate';
 import useUpdateEffect from './useUpdateEffect';

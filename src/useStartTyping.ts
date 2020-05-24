@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useLayoutEffect } from 'react';
+import { useLayoutEffect } from 'preact/hooks';
 
 const isFocusedElementEditable = () => {
   const { activeElement, body } = document;

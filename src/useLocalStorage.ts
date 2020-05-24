@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { useState, useCallback, Dispatch, SetStateAction } from 'react';
+import { useState, useCallback } from 'preact/hooks';
+import { Dispatch, SetStateAction } from 'react';
 import { isClient } from './util';
 
 type parserOptions<T> =

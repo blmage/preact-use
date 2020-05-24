@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useCallback, useEffect, useRef } from 'react';
+import { useCallback, useEffect, useRef } from 'preact/hooks';
 
 export type UseTimeoutFnReturn = [() => boolean | null, () => void, () => void];
 

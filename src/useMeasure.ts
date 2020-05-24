@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo } from 'preact/hooks';
 import useIsomorphicLayoutEffect from './useIsomorphicLayoutEffect';
 import { isClient } from './util';
 

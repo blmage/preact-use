@@ -1,4 +1,6 @@
-import { createFactory, createContext, useContext, useReducer } from 'react';
+import * as React from 'react';
+import { createFactory, createContext } from 'react';
+import { useContext, useReducer } from 'preact/hooks';
 
 const createReducerContext = <R extends React.Reducer<any, any>>(
   reducer: R,
@@ -8,7 +10,7 @@ const createReducerContext = <R extends React.Reducer<any, any>>(
   const providerFactory = createFactory(context.Provider);
 
   const ReducerProvider: React.FC<{ initialState?: React.ReducerState<R> }> = ({ children, initialState }) => {
-    const state = useReducer<R>(reducer, initialState !== undefined ? initialState : defaultInitialState);
+    const state = useReducer<React.ReducerState<R>, R>(reducer, initialState !== undefined ? initialState : defaultInitialState);
     return providerFactory({ value: state }, children);
   };
 

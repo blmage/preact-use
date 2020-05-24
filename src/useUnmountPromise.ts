@@ -1,4 +1,4 @@
-import { useMemo, useRef, useEffect } from 'react';
+import { useMemo, useRef, useEffect } from 'preact/hooks';
 
 export type Race = <P extends Promise<any>, E = any>(promise: P, onError?: (error: E) => void) => P;
 

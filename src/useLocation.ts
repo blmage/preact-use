@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'preact/hooks';
 import { isClient, off, on } from './util';
 
 const patchHistoryMethod = method => {

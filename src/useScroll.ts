@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { RefObject, useEffect } from 'react';
+import { RefObject } from 'react';
+import { useEffect } from 'preact/hooks';
 
 import useRafState from './useRafState';
 

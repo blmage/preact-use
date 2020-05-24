@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { RefObject, useEffect, useState } from 'react';
+import { RefObject } from 'react';
+import { useEffect, useState } from 'preact/hooks';
 
 const useIntersection = (
   ref: RefObject<HTMLElement>,

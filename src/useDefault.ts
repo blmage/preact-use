@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'preact/hooks';
 
 const useDefault = <TStateType>(defaultValue: TStateType, initialValue: TStateType | (() => TStateType)) => {
   const [value, setValue] = useState<TStateType | undefined | null>(initialValue);

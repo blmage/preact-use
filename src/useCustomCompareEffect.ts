@@ -1,4 +1,5 @@
-import { DependencyList, EffectCallback, useEffect, useRef } from 'react';
+import { DependencyList, EffectCallback } from 'react';
+import { useEffect, useRef } from 'preact/hooks';
 
 const isPrimitive = (val: any) => val !== Object(val);
 

@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { useEffect, useRef, RefObject, CSSProperties } from 'react';
+import { RefObject, CSSProperties } from 'react';
+import { useEffect, useRef } from 'preact/hooks';
 
 import { isClient, off, on } from './util';
 import useMountedState from './useMountedState';

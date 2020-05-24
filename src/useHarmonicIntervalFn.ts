@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'preact/hooks';
 import { setHarmonicInterval, clearHarmonicInterval } from 'set-harmonic-interval';
 
 const useHarmonicIntervalFn = (fn: Function, delay: number | null = 0) => {

@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'preact/hooks';
 export interface UseTitleOptions {
   restoreOnUnmount?: boolean;
 }

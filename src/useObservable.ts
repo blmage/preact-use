@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'preact/hooks';
 import useIsomorphicLayoutEffect from './useIsomorphicLayoutEffect';
 
 export interface Observable<T> {

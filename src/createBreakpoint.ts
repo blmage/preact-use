@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo } from 'preact/hooks';
 
 const createBreakpoint = (
   breakpoints: { [name: string]: number } = { laptopL: 1440, laptop: 1024, tablet: 768 }

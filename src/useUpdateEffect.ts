@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useEffect } from 'react';
+import { useEffect } from 'preact/hooks';
 import { useFirstMountState } from './useFirstMountState';
 
 const useUpdateEffect: typeof useEffect = (effect, deps) => {

@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { RefObject, useEffect, useState } from 'react';
+import { RefObject } from 'react';
+import { useEffect, useState } from 'preact/hooks';
 
 const useScrolling = (ref: RefObject<HTMLElement>): boolean => {
   const [scrolling, setScrolling] = useState<boolean>(false);

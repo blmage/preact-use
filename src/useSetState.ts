@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useState } from 'preact/hooks';
 
 const useSetState = <T extends object>(
   initialState: T = {} as T

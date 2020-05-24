@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { RefObject, useEffect, useRef } from 'react';
+import { RefObject } from 'react';
+import { useEffect, useRef } from 'preact/hooks';
 
 export function getClosestBody(el: Element | HTMLElement | HTMLIFrameElement | null): HTMLElement | null {
   if (!el) {

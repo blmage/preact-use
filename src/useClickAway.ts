@@ -1,4 +1,5 @@
-import { RefObject, useEffect, useRef } from 'react';
+import { RefObject } from 'react';
+import { useEffect, useRef } from 'preact/hooks';
 import { off, on } from './util';
 
 const defaultEvents = ['mousedown', 'touchstart'];

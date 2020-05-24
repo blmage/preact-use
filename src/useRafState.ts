@@ -1,4 +1,5 @@
-import { useRef, useState, useCallback, Dispatch, SetStateAction } from 'react';
+import { useRef, useState, useCallback } from 'preact/hooks';
+import { Dispatch, SetStateAction } from 'react';
 
 import useUnmount from './useUnmount';
 

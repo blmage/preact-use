@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'preact/hooks';
 import useKey, { KeyFilter } from './useKey';
 
 const useKeyPress = (keyFilter: KeyFilter) => {

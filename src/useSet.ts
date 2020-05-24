@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback } from 'preact/hooks';
 
 export interface StableActions<K> {
   add: (key: K) => void;

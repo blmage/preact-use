@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { useMemo, useState } from 'react';
+import 'react';
+import { useMemo, useState } from 'preact/hooks';
 import useMountedState from './useMountedState';
 
 export interface DropAreaState {

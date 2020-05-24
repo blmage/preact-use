@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'preact/hooks';
 import { StateValidator, UseStateValidatorReturn, ValidityState } from './useStateValidator';
 
 export type MultiStateValidatorStates = any[] | { [p: string]: any } | { [p: number]: any };

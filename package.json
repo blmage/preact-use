@@ -62,8 +62,7 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "preact": "^10.4.4"
   },
   "devDependencies": {
     "@babel/core": "7.9.6",
@@ -107,6 +106,7 @@
     "markdown-loader": "5.1.0",
     "prettier": "2.0.5",
     "raf-stub": "3.0.0",
+    "preact": "10.4.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-frame-component": "4.1.2",

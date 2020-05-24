@@ -1,6 +1,6 @@
 /* eslint-disable */
 import writeText from 'copy-to-clipboard';
-import { useCallback } from 'react';
+import { useCallback } from 'preact/hooks';
 import useMountedState from './useMountedState';
 import useSetState from './useSetState';
 

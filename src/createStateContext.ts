@@ -1,4 +1,5 @@
-import { createFactory, createContext, useContext, useState } from 'react';
+import { createFactory, createContext } from 'react';
+import { useContext, useState } from 'preact/hooks';
 
 const createStateContext = <T>(defaultInitialValue: T) => {
   const context = createContext<[T, React.Dispatch<React.SetStateAction<T>>] | undefined>(undefined);

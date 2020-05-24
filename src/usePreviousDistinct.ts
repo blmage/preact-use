@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef } from 'preact/hooks';
 import { useFirstMountState } from './useFirstMountState';
 
 export type Predicate<T> = (prev: T | undefined, next: T) => boolean;

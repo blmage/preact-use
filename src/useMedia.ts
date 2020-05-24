@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'preact/hooks';
 import { isClient } from './util';
 
 const useMedia = (query: string, defaultState: boolean = false) => {

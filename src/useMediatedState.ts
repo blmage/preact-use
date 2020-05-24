@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { Dispatch, SetStateAction, useCallback, useRef, useState } from 'react';
+import { Dispatch, SetStateAction } from 'react';
+import { useCallback, useRef, useState } from 'preact/hooks';
 
 export interface StateMediator<S = any> {
   (newState: any): S;

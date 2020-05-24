@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useLayoutEffect, useState } from 'react';
+import { useLayoutEffect, useState } from 'preact/hooks';
 import useEffectOnce from './useEffectOnce';
 
 export function createGlobalState<S = any>(initialState?: S) {

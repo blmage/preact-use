@@ -1,4 +1,4 @@
-import { useMemo, useReducer, Reducer } from 'react';
+import { useMemo, useReducer, Reducer } from 'preact/hooks';
 
 type Action = {
   type: string;
@@ -23,7 +23,7 @@ const useMethods = <M, T>(createMethods: CreateMethods<M, T>, initialState: T): 
     [createMethods]
   );
 
-  const [state, dispatch] = useReducer<Reducer<T, Action>>(reducer, initialState);
+  const [state, dispatch] = useReducer<T, Action>(reducer, initialState);
 
   const wrappedMethods: WrappedMethods<M> = useMemo(() => {
     const actionTypes = Object.keys(createMethods(initialState));

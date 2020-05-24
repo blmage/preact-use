@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'preact/hooks';
 import useUnmount from './useUnmount';
 
 const useThrottle = <T>(value: T, ms: number = 200) => {

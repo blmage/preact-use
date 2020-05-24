@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { useState, useEffect, useRef, RefObject } from 'react';
+import { RefObject } from 'react';
+import { useState, useEffect, useRef, } from 'preact/hooks';
 import ResizeObserver from 'resize-observer-polyfill';
 
 export interface ContentRect {

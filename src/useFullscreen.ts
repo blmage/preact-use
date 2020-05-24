@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { RefObject, useLayoutEffect, useState } from 'react';
+import { RefObject } from 'react';
+import { useLayoutEffect, useState } from 'preact/hooks';
 import screenfull from 'screenfull';
 
 export interface FullScreenOptions {

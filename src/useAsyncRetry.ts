@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { DependencyList, useCallback, useState } from 'react';
+import { DependencyList } from 'react';
+import { useCallback, useState } from 'preact/hooks';
 import useAsync, { AsyncState } from './useAsync';
 
 export type AsyncStateRetry<T> = AsyncState<T> & {
