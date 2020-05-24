@@ -8,4 +8,6 @@ export type FnReturningPromise = (...args: any[]) => Promise<any>;
 
 export type PromiseType<P extends Promise<any>> = P extends Promise<infer T> ? T : never;
 
-export const isDeepEqual: (a: any, b: any) => boolean = require('fast-deep-equal/react');
+const isDeepEqual: (a: any, b: any) => boolean = require('fast-deep-equal/react');
+
+export { isDeepEqual };
