@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { useLayoutEffect } from 'preact/hooks';
+import useIsomorphicLayoutEffect from './useIsomorphicLayoutEffect';
 var isFocusedElementEditable = function () {
     var activeElement = document.activeElement, body = document.body;
     if (!activeElement) {
@@ -35,7 +35,7 @@ var isTypedCharGood = function (_a) {
     return false;
 };
 var useStartTyping = function (onStartTyping) {
-    useLayoutEffect(function () {
+    useIsomorphicLayoutEffect(function () {
         var keydown = function (event) {
             !isFocusedElementEditable() && isTypedCharGood(event) && onStartTyping(event);
         };

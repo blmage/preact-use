@@ -1,6 +1,7 @@
 /* eslint-disable */
-import { useLayoutEffect, useState } from 'preact/hooks';
+import { useState } from 'preact/hooks';
 import useEffectOnce from './useEffectOnce';
+import useIsomorphicLayoutEffect from './useIsomorphicLayoutEffect';
 export function createGlobalState(initialState) {
     var store = {
         state: initialState,
@@ -15,7 +16,7 @@ export function createGlobalState(initialState) {
         useEffectOnce(function () { return function () {
             store.setters = store.setters.filter(function (setter) { return setter !== stateSetter; });
         }; });
-        useLayoutEffect(function () {
+        useIsomorphicLayoutEffect(function () {
             if (!store.setters.includes(stateSetter)) {
                 store.setters.push(stateSetter);
             }

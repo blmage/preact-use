@@ -55,8 +55,7 @@ var useSize = function (element, _a) {
         };
     }, []);
     style.position = 'relative';
-    var sized = React.cloneElement.apply(React, __spreadArrays([element,
-        { style: style }], __spreadArrays([
+    var sized = React.cloneElement.apply(React, __spreadArrays([element, { style: style }], __spreadArrays([
         React.createElement('iframe', {
             ref: ref,
             style: {

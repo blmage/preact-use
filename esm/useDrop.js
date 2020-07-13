@@ -1,15 +1,9 @@
 import { __spreadArrays } from "tslib";
 /* eslint-disable */
 import * as React from 'react';
-import useMountedState from './useMountedState';
 var useState = React.useState, useMemo = React.useMemo, useCallback = React.useCallback, useEffect = React.useEffect;
 var noop = function () { };
-/*
-const defaultState: DropAreaState = {
-  over: false,
-};
-*/
-var createProcess = function (options, mounted) { return function (dataTransfer, event) {
+var createProcess = function (options) { return function (dataTransfer, event) {
     var uri = dataTransfer.getData('text/uri-list');
     if (uri) {
         (options.onUri || noop)(uri, event);
@@ -19,22 +13,19 @@ var createProcess = function (options, mounted) { return function (dataTransfer,
         (options.onFiles || noop)(Array.from(dataTransfer.files), event);
         return;
     }
-    if (dataTransfer.items && dataTransfer.items.length) {
-        dataTransfer.items[0].getAsString(function (text) {
-            if (mounted) {
-                (options.onText || noop)(text, event);
-            }
-        });
+    if (event.clipboardData) {
+        var text = event.clipboardData.getData('text');
+        (options.onText || noop)(text, event);
+        return;
     }
 }; };
 var useDrop = function (options, args) {
     if (options === void 0) { options = {}; }
     if (args === void 0) { args = []; }
     var onFiles = options.onFiles, onText = options.onText, onUri = options.onUri;
-    var isMounted = useMountedState();
     var _a = useState(false), over = _a[0], setOverRaw = _a[1];
     var setOver = useCallback(setOverRaw, []);
-    var process = useMemo(function () { return createProcess(options, isMounted()); }, [onFiles, onText, onUri]);
+    var process = useMemo(function () { return createProcess(options); }, [onFiles, onText, onUri]);
     useEffect(function () {
         var onDragOver = function (event) {
             event.preventDefault();

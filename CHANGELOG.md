@@ -1,3 +1,73 @@
+## [15.3.2](https://github.com/streamich/react-use/compare/v15.3.1...v15.3.2) (2020-06-29)
+
+
+### Bug Fixes
+
+* **useFullscreen:** fix typings so [#1205](https://github.com/streamich/react-use/issues/1205) can be merged. ([e6e55a3](https://github.com/streamich/react-use/commit/e6e55a3f94993b621566ac66488fd973e992704f))
+
+## [15.3.1](https://github.com/streamich/react-use/compare/v15.3.0...v15.3.1) (2020-06-29)
+
+
+### Bug Fixes
+
+* **usePrevious:** revert the reworked variant as a fix of [#1315](https://github.com/streamich/react-use/issues/1315) ([a4279eb](https://github.com/streamich/react-use/commit/a4279eb660f6b433ed88e0d90c2bb0b3158d3b00))
+
+# [15.3.0](https://github.com/streamich/react-use/compare/v15.2.5...v15.3.0) (2020-06-19)
+
+
+### Features
+
+* **usePrevious:** reworked the hook, now it is more memory-efficient. ([8c6f467](https://github.com/streamich/react-use/commit/8c6f4675beac9c71e96126dd6f06f455c4e4bf01))
+
+## [15.2.5](https://github.com/streamich/react-use/compare/v15.2.4...v15.2.5) (2020-06-15)
+
+
+### Bug Fixes
+
+* bump react-universal-interface ([1540c1a](https://github.com/streamich/react-use/commit/1540c1ab8f338dfa2f53de16506fbf47803d45ba))
+
+## [15.2.4](https://github.com/streamich/react-use/compare/v15.2.3...v15.2.4) (2020-06-13)
+
+
+### Bug Fixes
+
+*  doesn't unlock the body on unmount ([1ead4ef](https://github.com/streamich/react-use/commit/1ead4efab6c67131e480570b578b0ce803204953))
+
+## [15.2.3](https://github.com/streamich/react-use/compare/v15.2.2...v15.2.3) (2020-06-13)
+
+
+### Bug Fixes
+
+* 🐛 improve how text is dropped in useDrop hook ([b2f46d1](https://github.com/streamich/react-use/commit/b2f46d10f25c5e658bb7f790950a1fd9a4e5e288))
+
+## [15.2.2](https://github.com/streamich/react-use/compare/v15.2.1...v15.2.2) (2020-06-08)
+
+
+### Bug Fixes
+
+* repair useKeyboardJs hook ([8410bb0](https://github.com/streamich/react-use/commit/8410bb042fec8f1996e8bcecb85fadfbb414b3f9))
+
+## [15.2.1](https://github.com/streamich/react-use/compare/v15.2.0...v15.2.1) (2020-06-08)
+
+
+### Bug Fixes
+
+* 🐛 bump fast-deep-equal, and consume it through ES import ([f3c715c](https://github.com/streamich/react-use/commit/f3c715c12412224be815e0d1bc3e2285f275df26))
+
+# [15.2.0](https://github.com/streamich/react-use/compare/v15.1.1...v15.2.0) (2020-06-07)
+
+
+### Features
+
+* add useMouseWheel hook ([d714b12](https://github.com/streamich/react-use/commit/d714b12e8b2d071c65fe4dc7643be10f69dc5dba))
+
+## [15.1.1](https://github.com/streamich/react-use/compare/v15.1.0...v15.1.1) (2020-05-30)
+
+
+### Bug Fixes
+
+* 🐛 use useIsomorphicLayoutEffect everywhere ([dad26e5](https://github.com/streamich/react-use/commit/dad26e507d3409300f945bc57930f88c5a11953d))
+
 # [15.1.0](https://github.com/streamich/react-use/compare/v15.0.3...v15.1.0) (2020-05-18)
 
 

@@ -1,20 +1,22 @@
 /* eslint-disable */
 import { RefObject } from 'react';
-import { useLayoutEffect, useState } from 'preact/hooks';
+import { useState } from 'preact/hooks';
 import screenfull from 'screenfull';
+import useIsomorphicLayoutEffect from './useIsomorphicLayoutEffect';
 
 export interface FullScreenOptions {
-  video?: RefObject<HTMLVideoElement>;
+  video?: RefObject<HTMLVideoElement & { webkitEnterFullscreen?: () => void; webkitExitFullscreen?: () => void; }>;
   onClose?: (error?: Error) => void;
 }
 
-const noop = () => {};
+const noop = () => {
+};
 
 const useFullscreen = (ref: RefObject<Element>, on: boolean, options: FullScreenOptions = {}): boolean => {
   const { video, onClose = noop } = options;
   const [isFullscreen, setIsFullscreen] = useState(on);
 
-  useLayoutEffect(() => {
+  useIsomorphicLayoutEffect(() => {
     if (!on) {
       return;
     }
@@ -61,7 +63,8 @@ const useFullscreen = (ref: RefObject<Element>, on: boolean, options: FullScreen
         try {
           screenfull.off('change', onChange);
           screenfull.exit();
-        } catch {}
+        } catch {
+        }
       } else if (video && video.current && video.current.webkitExitFullscreen) {
         video.current.removeEventListener('webkitendfullscreen', onWebkitEndFullscreen);
         video.current.webkitExitFullscreen();
