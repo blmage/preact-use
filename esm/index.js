@@ -36,6 +36,7 @@ export { default as useIntersection } from './useIntersection';
 export { default as useInterval } from './useInterval';
 export { default as useIsomorphicLayoutEffect } from './useIsomorphicLayoutEffect';
 export { default as useKey } from './useKey';
+export { default as useKeyCi } from './useKeyCi';
 export { default as createBreakpoint } from './createBreakpoint';
 // not exported because of peer dependency
 // export { default as useKeyboardJs } from './useKeyboardJs';
@@ -89,6 +90,7 @@ export { default as useStartTyping } from './useStartTyping';
 export { useStateWithHistory } from './useStateWithHistory';
 export { default as useStateList } from './useStateList';
 export { default as useThrottle } from './useThrottle';
+export { default as useThrottledCallback } from './useThrottledCallback';
 export { default as useThrottleFn } from './useThrottleFn';
 export { default as useTimeout } from './useTimeout';
 export { default as useTimeoutFn } from './useTimeoutFn';
