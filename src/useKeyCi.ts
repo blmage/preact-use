@@ -6,10 +6,11 @@ import useEvent, { UseEventTarget } from './useEvent';
 export type KeyPredicate = (event: KeyboardEvent) => boolean;
 export type KeyFilter = null | undefined | string | string[];
 export type Handler = (event: KeyboardEvent) => void;
-export type Callback = (key: string) => void;
+export type Callback = (key: string, event: KeyboardEvent) => void;
 
 export interface UseKeyOptions {
   event?: 'keydown' | 'keypress' | 'keyup';
+  discard?: boolean,
   target?: UseEventTarget;
   options?: any;
 }
@@ -33,7 +34,12 @@ const useKeyCi = (key: KeyFilter, fn: Callback = noop, opts: UseKeyOptions = {},
     const predicate: KeyPredicate = createKeyPredicate(key);
     const handler: Handler = handlerEvent => {
       if (predicate(handlerEvent)) {
-        return fn(handlerEvent.key.toLowerCase());
+        if (opts.discard) {
+          handlerEvent.preventDefault();
+          handlerEvent.stopPropagation();
+        }
+
+        return fn(handlerEvent.key.toLowerCase(), handlerEvent);
       }
     };
     return handler;

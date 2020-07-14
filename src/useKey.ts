@@ -9,6 +9,7 @@ export type Handler = (event: KeyboardEvent) => void;
 
 export interface UseKeyOptions {
   event?: 'keydown' | 'keypress' | 'keyup';
+  discard?: boolean;
   target?: UseEventTarget;
   options?: any;
 }
@@ -29,6 +30,11 @@ const useKey = (key: KeyFilter, fn: Handler = noop, opts: UseKeyOptions = {}, de
     const predicate: KeyPredicate = createKeyPredicate(key);
     const handler: Handler = handlerEvent => {
       if (predicate(handlerEvent)) {
+        if (opts.discard) {
+          handlerEvent.preventDefault();
+          handlerEvent.stopPropagation();
+        }
+
         return fn(handlerEvent);
       }
     };

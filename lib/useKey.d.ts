@@ -5,6 +5,7 @@ export declare type KeyFilter = null | undefined | string | ((event: KeyboardEve
 export declare type Handler = (event: KeyboardEvent) => void;
 export interface UseKeyOptions {
     event?: 'keydown' | 'keypress' | 'keyup';
+    discard?: boolean;
     target?: UseEventTarget;
     options?: any;
 }

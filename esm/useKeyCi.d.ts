@@ -3,9 +3,10 @@ import { UseEventTarget } from './useEvent';
 export declare type KeyPredicate = (event: KeyboardEvent) => boolean;
 export declare type KeyFilter = null | undefined | string | string[];
 export declare type Handler = (event: KeyboardEvent) => void;
-export declare type Callback = (key: string) => void;
+export declare type Callback = (key: string, event: KeyboardEvent) => void;
 export interface UseKeyOptions {
     event?: 'keydown' | 'keypress' | 'keyup';
+    discard?: boolean;
     target?: UseEventTarget;
     options?: any;
 }
