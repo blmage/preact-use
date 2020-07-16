@@ -1,17 +1,15 @@
 import { useCallback, useRef } from 'preact/hooks';
 
-const useThrottledCallback = (fn: Function, ms: number = 200, ...args: any[]) => {
-  const timeout = useRef();
+const useThrottledCallback = (fn: Function, ms: number = 200, ...baseArgs: any[]) => {
+  const isThrottled = useRef(false);
 
-  return useCallback(() => {
-    if (!timeout.current) {
-      fn(...args);
-
-      timeout.current = setTimeout(() => {
-        timeout.current = null;
-      }, ms);
+  return useCallback((...additionalArgs) => {
+    if (!isThrottled.current) {
+      fn(...baseArgs, ...additionalArgs);
+      isThrottled.current = true;
+      setTimeout(() => (isThrottled.current = false), ms);
     }
-  }, args.concat(fn, ms)); // eslint-disable-line react-hooks/exhaustive-deps
+  }, baseArgs.concat(fn, ms)); // eslint-disable-line react-hooks/exhaustive-deps
 };
 
 export default useThrottledCallback;

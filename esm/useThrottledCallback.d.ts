@@ -1,2 +1,2 @@
-declare const useThrottledCallback: (fn: Function, ms?: number, ...args: any[]) => () => void;
+declare const useThrottledCallback: (fn: Function, ms?: number, ...baseArgs: any[]) => (...additionalArgs: any[]) => void;
 export default useThrottledCallback;

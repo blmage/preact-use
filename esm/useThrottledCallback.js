@@ -1,18 +1,22 @@
+import { __spreadArrays } from "tslib";
 import { useCallback, useRef } from 'preact/hooks';
 var useThrottledCallback = function (fn, ms) {
     if (ms === void 0) { ms = 200; }
-    var args = [];
+    var baseArgs = [];
     for (var _i = 2; _i < arguments.length; _i++) {
-        args[_i - 2] = arguments[_i];
+        baseArgs[_i - 2] = arguments[_i];
     }
-    var timeout = useRef();
+    var isThrottled = useRef(false);
     return useCallback(function () {
-        if (!timeout.current) {
-            fn.apply(void 0, args);
-            timeout.current = setTimeout(function () {
-                timeout.current = null;
-            }, ms);
+        var additionalArgs = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            additionalArgs[_i] = arguments[_i];
         }
-    }, args.concat(fn, ms)); // eslint-disable-line react-hooks/exhaustive-deps
+        if (!isThrottled.current) {
+            fn.apply(void 0, __spreadArrays(baseArgs, additionalArgs));
+            isThrottled.current = true;
+            setTimeout(function () { return (isThrottled.current = false); }, ms);
+        }
+    }, baseArgs.concat(fn, ms)); // eslint-disable-line react-hooks/exhaustive-deps
 };
 export default useThrottledCallback;
