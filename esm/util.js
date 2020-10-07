@@ -15,3 +15,4 @@ export var off = function (obj) {
 };
 var isDeepEqual = require('fast-deep-equal/react');
 export { isDeepEqual };
+export var isFunction = function (a) { return (typeof a === 'function'); };

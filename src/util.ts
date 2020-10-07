@@ -11,3 +11,5 @@ export type PromiseType<P extends Promise<any>> = P extends Promise<infer T> ? T
 const isDeepEqual: (a: any, b: any) => boolean = require('fast-deep-equal/react');
 
 export { isDeepEqual };
+
+export const isFunction = (a: any) => (typeof a === 'function');
