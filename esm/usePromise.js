@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useCallback } from 'preact/hooks';
 import useMountedState from './useMountedState';
 var usePromise = function () {

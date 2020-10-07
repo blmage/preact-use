@@ -1,10 +1,10 @@
-/* eslint-disable */
 import { useEffect, useState } from 'preact/hooks';
 import { isClient } from './util';
 var useSessionStorage = function (key, initialValue, raw) {
     if (!isClient) {
         return [initialValue, function () { }];
     }
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     var _a = useState(function () {
         try {
             var sessionStorageValue = sessionStorage.getItem(key);
@@ -23,6 +23,7 @@ var useSessionStorage = function (key, initialValue, raw) {
             return initialValue;
         }
     }), state = _a[0], setState = _a[1];
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     useEffect(function () {
         try {
             var serializedState = raw ? String(state) : JSON.stringify(state);

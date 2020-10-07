@@ -12,7 +12,6 @@ var useThrottledCallback = function (fn, options) {
     }
     var isThrottled = useRef(false);
     var pendingCall = useRef(null);
-    // todo keep the timeout in a ref instead of isThrottled, replace it when a call falls?
     var baseCallback = useCallback(function () {
         var args = [];
         for (var _i = 0; _i < arguments.length; _i++) {

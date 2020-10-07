@@ -1,6 +1,5 @@
-/* eslint-disable */
 import { Dispatch, SetStateAction } from 'react';
-import{ useCallback, useEffect, useRef, useState } from 'preact/hooks';
+import { useCallback, useEffect, useRef, useState } from 'preact/hooks';
 
 export type ValidityState = [boolean | undefined, ...any[]];
 

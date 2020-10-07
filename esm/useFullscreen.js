@@ -1,8 +1,7 @@
 import { useState } from 'preact/hooks';
 import screenfull from 'screenfull';
 import useIsomorphicLayoutEffect from './useIsomorphicLayoutEffect';
-var noop = function () {
-};
+var noop = function () { };
 var useFullscreen = function (ref, on, options) {
     if (options === void 0) { options = {}; }
     var video = options.video, _a = options.onClose, onClose = _a === void 0 ? noop : _a;
@@ -54,8 +53,7 @@ var useFullscreen = function (ref, on, options) {
                     screenfull.off('change', onChange);
                     screenfull.exit();
                 }
-                catch (_a) {
-                }
+                catch (_a) { }
             }
             else if (video && video.current && video.current.webkitExitFullscreen) {
                 video.current.removeEventListener('webkitendfullscreen', onWebkitEndFullscreen);

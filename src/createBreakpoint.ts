@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useEffect, useState, useMemo } from 'preact/hooks';
 
 const createBreakpoint = (

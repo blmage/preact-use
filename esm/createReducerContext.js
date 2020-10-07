@@ -1,8 +1,8 @@
-import { createFactory, createContext } from 'react';
+import { createElement, createContext } from 'react';
 import { useContext, useReducer } from 'preact/hooks';
 var createReducerContext = function (reducer, defaultInitialState) {
     var context = createContext(undefined);
-    var providerFactory = createFactory(context.Provider);
+    var providerFactory = function (props, children) { return createElement(context.Provider, props, children); };
     var ReducerProvider = function (_a) {
         var children = _a.children, initialState = _a.initialState;
         var state = useReducer(reducer, initialState !== undefined ? initialState : defaultInitialState);

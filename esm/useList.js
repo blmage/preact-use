@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useMemo, useRef } from 'preact/hooks';
 import useUpdate from './useUpdate';
 import { resolveHookState } from './util/resolveHookState';

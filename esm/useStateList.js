@@ -1,5 +1,4 @@
 import { __assign } from "tslib";
-/* eslint-disable */
 import { useMemo, useRef } from 'preact/hooks';
 import useMountedState from './useMountedState';
 import useUpdate from './useUpdate';

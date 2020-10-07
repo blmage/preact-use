@@ -1,5 +1,4 @@
 import { __assign } from "tslib";
-/* eslint-disable */
 import { useCallback, useRef } from 'preact/hooks';
 import useUpdate from './useUpdate';
 var useGetSetState = function (initialState) {

@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useEffect, useState, useMemo } from 'preact/hooks';
 var createBreakpoint = function (breakpoints) {
     if (breakpoints === void 0) { breakpoints = { laptopL: 1440, laptop: 1024, tablet: 768 }; }

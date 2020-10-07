@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useEffect, useState } from 'preact/hooks';
 import { off, on } from './util';
 var defaultState = {
@@ -7,6 +6,7 @@ var defaultState = {
 };
 var useOrientation = function (initialState) {
     if (initialState === void 0) { initialState = defaultState; }
+    var screen = window.screen;
     var _a = useState(initialState), state = _a[0], setState = _a[1];
     useEffect(function () {
         var mounted = true;

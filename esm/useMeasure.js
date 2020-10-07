@@ -33,4 +33,4 @@ var useMeasure = function () {
     return [ref, rect];
 };
 var useMeasureMock = function () { return [function () { }, defaultState]; };
-export default (isClient && !!window.ResizeObserver) ? useMeasure : useMeasureMock;
+export default isClient && !!window.ResizeObserver ? useMeasure : useMeasureMock;

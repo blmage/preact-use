@@ -1,5 +1,4 @@
 import { __assign } from "tslib";
-/* eslint-disable */
 import { useEffect, useState } from 'preact/hooks';
 var useGeolocation = function (options) {
     var _a = useState({

@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { Dispatch, SetStateAction } from 'react';
 import { useCallback, useRef, useState } from 'preact/hooks';
 

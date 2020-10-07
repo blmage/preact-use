@@ -1,7 +1,5 @@
 import { __spreadArrays } from "tslib";
-/* eslint-disable */
-import * as React from 'react';
-var useState = React.useState, useMemo = React.useMemo, useCallback = React.useCallback, useEffect = React.useEffect;
+import { useState, useMemo, useCallback, useEffect } from 'react';
 var noop = function () { };
 var createProcess = function (options) { return function (dataTransfer, event) {
     var uri = dataTransfer.getData('text/uri-list');

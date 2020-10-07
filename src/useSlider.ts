@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { RefObject, CSSProperties } from 'react';
 import { useEffect, useRef } from 'preact/hooks';
 

@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { Dispatch } from 'react';
 import { useMemo, useRef } from 'preact/hooks';
 import useUpdate from './useUpdate';

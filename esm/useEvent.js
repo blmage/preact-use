@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useEffect } from 'preact/hooks';
 import { isClient } from './util';
 var defaultTarget = isClient ? window : null;

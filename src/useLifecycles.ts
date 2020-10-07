@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useEffect } from 'preact/hooks';
 
 const useLifecycles = (mount, unmount?) => {

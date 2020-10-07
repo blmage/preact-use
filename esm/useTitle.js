@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useRef, useEffect } from 'preact/hooks';
 var DEFAULT_USE_TITLE_OPTIONS = {
     restoreOnUnmount: false,

@@ -1,13 +1,12 @@
-/* eslint-disable */
 import { useCallback, useRef } from 'preact/hooks';
-var isTouchEvent = function (event) {
-    return 'touches' in event;
+var isTouchEvent = function (ev) {
+    return 'touches' in ev;
 };
-var preventDefault = function (event) {
-    if (!isTouchEvent(event))
+var preventDefault = function (ev) {
+    if (!isTouchEvent(ev))
         return;
-    if (event.touches.length < 2 && event.preventDefault) {
-        event.preventDefault();
+    if (ev.touches.length < 2 && ev.preventDefault) {
+        ev.preventDefault();
     }
 };
 var useLongPress = function (callback, _a) {
@@ -21,14 +20,14 @@ var useLongPress = function (callback, _a) {
             target.current = event.target;
         }
         timeout.current = setTimeout(function () { return callback(event); }, delay);
-    }, [callback, delay]);
+    }, [callback, delay, isPreventDefault]);
     var clear = useCallback(function () {
         // clearTimeout and removeEventListener
         timeout.current && clearTimeout(timeout.current);
         if (isPreventDefault && target.current) {
             target.current.removeEventListener('touchend', preventDefault);
         }
-    }, []);
+    }, [isPreventDefault]);
     return {
         onMouseDown: function (e) { return start(e); },
         onTouchStart: function (e) { return start(e); },

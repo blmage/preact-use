@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useState } from 'preact/hooks';
 import useEffectOnce from './useEffectOnce';
 import useIsomorphicLayoutEffect from './useIsomorphicLayoutEffect';

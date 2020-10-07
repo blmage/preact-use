@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useEffect } from 'preact/hooks';
 var usePageLeave = function (onPageLeave, args) {
     if (args === void 0) { args = []; }

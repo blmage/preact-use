@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useEffect } from 'preact/hooks';
 import useRafState from './useRafState';
 import { isClient } from './util';

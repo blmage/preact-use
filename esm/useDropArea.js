@@ -1,4 +1,3 @@
-/* eslint-disable */
 import 'react';
 import { useMemo, useState } from 'preact/hooks';
 import useMountedState from './useMountedState';

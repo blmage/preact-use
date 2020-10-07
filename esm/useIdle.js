@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useEffect, useState } from 'preact/hooks';
 import { throttle } from 'throttle-debounce';
 import { off, on } from './util';

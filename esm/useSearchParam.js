@@ -1,7 +1,7 @@
-/* eslint-disable */
 import { useState, useEffect } from 'preact/hooks';
 var getValue = function (search, param) { return new URLSearchParams(search).get(param); };
 var useSearchParam = function (param) {
+    var location = window.location;
     var _a = useState(function () { return getValue(location.search, param); }), value = _a[0], setValue = _a[1];
     useEffect(function () {
         var onChange = function () {

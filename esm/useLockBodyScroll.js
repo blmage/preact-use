@@ -37,7 +37,8 @@ export default !doc
     }
     : function useLockBody(locked, elementRef) {
         if (locked === void 0) { locked = true; }
-        elementRef = elementRef || useRef(doc.body);
+        var bodyRef = useRef(doc.body);
+        elementRef = elementRef || bodyRef;
         var lock = function (body) {
             var bodyInfo = bodies.get(body);
             if (!bodyInfo) {

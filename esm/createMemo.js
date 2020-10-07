@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useMemo } from 'preact/hooks';
 var createMemo = function (fn) { return function () {
     var args = [];

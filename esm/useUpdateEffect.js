@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useEffect } from 'preact/hooks';
 import { useFirstMountState } from './useFirstMountState';
 var useUpdateEffect = function (effect, deps) {

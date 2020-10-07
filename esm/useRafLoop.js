@@ -11,22 +11,25 @@ export default function useRafLoop(callback, initiallyActive) {
             raf.current = requestAnimationFrame(step);
         }
     }, []);
-    var result = useMemo(function () { return [
-        function () {
-            if (rafActivity.current) {
-                rafActivity.current = false;
-                raf.current && cancelAnimationFrame(raf.current);
-            }
-        },
-        function () {
-            if (!rafActivity.current) {
-                rafActivity.current = true;
-                raf.current = requestAnimationFrame(step);
-            }
-        },
-        function () { return rafActivity.current; } // isActive
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    ]; }, []);
+    var result = useMemo(function () {
+        return [
+            function () {
+                // stop
+                if (rafActivity.current) {
+                    rafActivity.current = false;
+                    raf.current && cancelAnimationFrame(raf.current);
+                }
+            },
+            function () {
+                // start
+                if (!rafActivity.current) {
+                    rafActivity.current = true;
+                    raf.current = requestAnimationFrame(step);
+                }
+            },
+            function () { return rafActivity.current; },
+        ];
+    }, []);
     useEffect(function () {
         if (initiallyActive) {
             result[1]();

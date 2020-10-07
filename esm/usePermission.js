@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useEffect, useState } from 'preact/hooks';
 import { off, on } from './util';
 var noop = function () { };

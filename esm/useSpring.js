@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useEffect, useMemo, useState } from 'preact/hooks';
 import { SpringSystem } from 'rebound';
 var useSpring = function (targetValue, tension, friction) {

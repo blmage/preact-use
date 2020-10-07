@@ -1,5 +1,5 @@
-import { useState, useCallback } from "react";
-import useLifecycles from "./useLifecycles";
+import { useState, useCallback } from 'react';
+import useLifecycles from './useLifecycles';
 /**
  * read and write url hash, response to url hash change
  */

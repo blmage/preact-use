@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useCallback, useEffect, useRef, useState } from 'preact/hooks';
 export function useMultiStateValidator(states, validator, initialValidity) {
     if (initialValidity === void 0) { initialValidity = [undefined]; }

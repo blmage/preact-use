@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useCallback, useEffect, useRef, useState } from 'preact/hooks';
 import { StateValidator, UseStateValidatorReturn, ValidityState } from './useStateValidator';
 

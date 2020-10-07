@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useCallback, useRef } from 'preact/hooks';
 import useUpdate from './useUpdate';
 

@@ -1,7 +1,5 @@
-/* eslint-disable */
-import * as React from 'react';
+import { useState, useEffect } from 'preact/hooks';
 import { off, on, isDeepEqual } from './util';
-var useState = React.useState, useEffect = React.useEffect;
 var nav = typeof navigator === 'object' ? navigator : undefined;
 var isBatteryApiSupported = nav && typeof nav.getBattery === 'function';
 function useBatteryMock() {

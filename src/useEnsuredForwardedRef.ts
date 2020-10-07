@@ -8,7 +8,7 @@ import {
   PropsWithChildren,
 } from 'react';
 
-import{ useRef, useEffect } from 'preact/hooks';
+import { useRef, useEffect } from 'preact/hooks';
 
 export default function useEnsuredForwardedRef<T>(forwardedRef: MutableRefObject<T>): MutableRefObject<T> {
   const ensuredRef = useRef(forwardedRef && forwardedRef.current);

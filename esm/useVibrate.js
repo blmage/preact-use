@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useEffect } from 'preact/hooks';
 var isVibrationApiSupported = typeof navigator === 'object' && 'vibrate' in navigator;
 var useVibrateMock = function () { };

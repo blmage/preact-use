@@ -1,5 +1,4 @@
 import { __assign, __rest } from "tslib";
-/* eslint-disable */
 import { useState, useMemo, useCallback } from 'preact/hooks';
 var useMap = function (initialMap) {
     if (initialMap === void 0) { initialMap = {}; }

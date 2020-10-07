@@ -1,5 +1,4 @@
 import { __spreadArrays } from "tslib";
-/* eslint-disable */
 import * as React from 'react';
 import { isClient } from './util';
 var useState = React.useState, useEffect = React.useEffect, useRef = React.useRef;
@@ -9,11 +8,13 @@ var useSize = function (element, _a) {
     if (!isClient) {
         return [typeof element === 'function' ? element({ width: width, height: height }) : element, { width: width, height: height }];
     }
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     var _e = useState({ width: width, height: height }), state = _e[0], setState = _e[1];
     if (typeof element === 'function') {
         element = element(state);
     }
     var style = element.props.style || {};
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     var ref = useRef(null);
     var window = null;
     var setSize = function () {
@@ -30,6 +31,7 @@ var useSize = function (element, _a) {
         windowToListenOn.addEventListener('resize', setSize);
         DRAF(setSize);
     };
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     useEffect(function () {
         var iframe = ref.current;
         if (!iframe) {

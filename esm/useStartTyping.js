@@ -1,4 +1,3 @@
-/* eslint-disable */
 import useIsomorphicLayoutEffect from './useIsomorphicLayoutEffect';
 var isFocusedElementEditable = function () {
     var activeElement = document.activeElement, body = document.body;

@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { DependencyList } from 'react';
 import { useMemo } from 'preact/hooks';
 import useEvent, { UseEventTarget } from './useEvent';
@@ -28,7 +27,7 @@ const useKey = (key: KeyFilter, fn: Handler = noop, opts: UseKeyOptions = {}, de
   const { event = 'keydown', target, options } = opts;
   const useMemoHandler = useMemo(() => {
     const predicate: KeyPredicate = createKeyPredicate(key);
-    const handler: Handler = handlerEvent => {
+    const handler: Handler = (handlerEvent) => {
       if (predicate(handlerEvent)) {
         if (opts.discard) {
           handlerEvent.preventDefault();

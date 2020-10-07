@@ -1,5 +1,4 @@
 import { __assign, __spreadArrays } from "tslib";
-/* eslint-disable */
 import { useState, useMemo, useCallback } from 'preact/hooks';
 var useSet = function (initialSet) {
     if (initialSet === void 0) { initialSet = new Set(); }

@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useEffect, useRef, useState } from 'preact/hooks';
 import useUnmount from './useUnmount';
 
@@ -17,6 +16,7 @@ const useThrottle = <T>(value: T, ms: number = 200) => {
           setState(nextValue.current);
           timeout.current = setTimeout(timeoutCallback, ms);
         } else {
+          // @ts-ignore
           timeout.current = undefined;
         }
       };

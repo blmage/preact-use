@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { useMemo, useRef } from 'preact/hooks';
 import useMountedState from './useMountedState';
 import useUpdate from './useUpdate';
@@ -6,11 +5,11 @@ import useUpdateEffect from './useUpdateEffect';
 
 export interface UseStateListReturn<T> {
   state: T;
-  prevState: T,
-  nextState: T,
+  prevState: T;
+  nextState: T;
   currentIndex: number;
-  prevIndex: number,
-  nextIndex: number,
+  prevIndex: number;
+  nextIndex: number;
   setStateAt: (newIndex: number) => void;
   setState: (state: T) => void;
   next: () => void;
