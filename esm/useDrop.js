@@ -1,5 +1,5 @@
 import { __spreadArrays } from "tslib";
-import { useState, useMemo, useCallback, useEffect } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'preact/hooks';
 var noop = function () { };
 var createProcess = function (options) { return function (dataTransfer, event) {
     var uri = dataTransfer.getData('text/uri-list');

@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback } from 'preact/hooks';
 import useLifecycles from './useLifecycles';
 /**
  * read and write url hash, response to url hash change

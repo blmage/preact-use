@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback, useEffect } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'preact/hooks';
 
 export interface DropAreaState {
   over: boolean;
