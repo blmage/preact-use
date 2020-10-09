@@ -1,7 +1,8 @@
+import { __spreadArrays } from "tslib";
 import { useEffect, useRef } from 'preact/hooks';
 import { off, on } from './util';
 var defaultEvents = ['mousedown', 'touchstart'];
-var useClickAway = function (ref, onClickAway, events) {
+var useClickAway = function (refs, onClickAway, events) {
     if (events === void 0) { events = defaultEvents; }
     var savedCallback = useRef(onClickAway);
     useEffect(function () {
@@ -9,8 +10,8 @@ var useClickAway = function (ref, onClickAway, events) {
     }, [onClickAway]);
     useEffect(function () {
         var handler = function (event) {
-            var el = ref.current;
-            el && !el.contains(event.target) && savedCallback.current(event);
+            var els = refs.map(function (ref) { return ref.current; }).filter(function (el) { return !!el; });
+            (els.length > 0) && !els.some(function (el) { return el.contains(event.target); }) && savedCallback.current(event);
         };
         for (var _i = 0, events_1 = events; _i < events_1.length; _i++) {
             var eventName = events_1[_i];
@@ -22,6 +23,7 @@ var useClickAway = function (ref, onClickAway, events) {
                 off(document, eventName, handler);
             }
         };
-    }, [events, ref]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, __spreadArrays([events], refs));
 };
 export default useClickAway;

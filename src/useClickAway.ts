@@ -5,7 +5,7 @@ import { off, on } from './util';
 const defaultEvents = ['mousedown', 'touchstart'];
 
 const useClickAway = <E extends Event = Event>(
-  ref: RefObject<HTMLElement | null>,
+  refs: RefObject<HTMLElement | null>[],
   onClickAway: (event: E) => void,
   events: string[] = defaultEvents
 ) => {
@@ -15,8 +15,8 @@ const useClickAway = <E extends Event = Event>(
   }, [onClickAway]);
   useEffect(() => {
     const handler = (event) => {
-      const { current: el } = ref;
-      el && !el.contains(event.target) && savedCallback.current(event);
+      const els = refs.map(ref => ref.current).filter(el => !!el);
+      (els.length > 0) && !els.some(el => el!.contains(event.target)) && savedCallback.current(event);
     };
     for (const eventName of events) {
       on(document, eventName, handler);
@@ -26,7 +26,8 @@ const useClickAway = <E extends Event = Event>(
         off(document, eventName, handler);
       }
     };
-  }, [events, ref]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [events, ...refs]);
 };
 
 export default useClickAway;
