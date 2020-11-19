@@ -1,3 +1,437 @@
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-19)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-18)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-17)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-17)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-16)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-16)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-16)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-11)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-10)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-10)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-09)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-09)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-08)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-07)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-07)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-04)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-04)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-04)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-04)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-03)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-02)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-11-02)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-31)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-30)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-29)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-28)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-27)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-27)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-26)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-26)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-26)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-26)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-26)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-24)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-24)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-23)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-23)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-23)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-22)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-20)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-20)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-20)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-20)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-19)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-19)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-17)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-16)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-16)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-15)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-15)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-14)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-14)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-13)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-12)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-12)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-12)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-11)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-11)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-10)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-09)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-09)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
+## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-08)
+
+
+### Bug Fixes
+
+* useLongPress hook linting fixes. ([9f3cc3d](https://github.com/streamich/react-use/commit/9f3cc3d33ac96b1b6f981d407ac08068af55f488))
+
 ## [15.3.4](https://github.com/streamich/react-use/compare/v15.3.3...v15.3.4) (2020-10-06)
 
 
